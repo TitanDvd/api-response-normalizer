@@ -1,0 +1,19 @@
+{
+    "name": "mmt/api-response-normalizer",
+    "description": "Trait for normalized JSON API responses in Laravel",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "illuminate/http": "^11.0|^12.0",
+        "illuminate/support": "^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MMT\\ApiResponseNormalizer\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
